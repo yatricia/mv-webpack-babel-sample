@@ -1,0 +1,28 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# for RPG editer mv
+mv
+
+# temporary
+temporary
+temp
+tmp
+
+# dependencies
+node_modules
+
+# Windows shortcuts
+*.lnk
+
+# Vim
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+
+# Vmisc
+*.DS_Store
+.env
+npm-debug.log

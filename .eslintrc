@@ -1,0 +1,29 @@
+{
+  "parser": "babel-eslint",
+
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true,
+  },
+
+  "ecmaFeatures": {
+    "modules": true,
+  },
+
+  "extends": "eslint:recommended",
+
+  "rules": {
+    "indent": 2,
+    "comma-spacing": 2,
+    "space-before-blocks": 2,
+    "keyword-spacing": 2,
+    "quotes": [2, "single"],
+    "arrow-parens": [2, "always"],
+    "arrow-spacing": 2,
+  },
+
+  "parserOptions": {
+    "sourceType": "module",
+  },
+}
